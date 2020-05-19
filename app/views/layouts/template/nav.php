@@ -22,6 +22,9 @@
                     <li class="nav-item <?=$activeController=='TodoList' ? 'active border-bottom border-light' : '';?>">
                         <a class="nav-link" href="/todo-list">To-Do List</a>
                     </li>
+                    <li class="nav-item <?=$activeController=='DragAndDrop' ? 'active border-bottom border-light' : '';?>">
+                        <a class="nav-link" href="/drag-and-drop">Drag-and-drop</a>
+                    </li>
                 </ul>
 
                 <div class="form-inline my-2 my-lg-0">
